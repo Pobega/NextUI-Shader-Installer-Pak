@@ -35,7 +35,7 @@ Browse, download, and install single-pass GLSL shaders from GitHub directly onto
 | Source | Description |
 |---|---|
 | **libretro/glsl-shaders** | The official libretro GLSL shader repository |
-| **SkyWalker541/PT-SkyWalker541** | PT SkyWalker541 — a pixel transparency shader built for low-power NextUI devices |
+| **SkyWalker541/PT-SkyWalker541** | PT SkyWalker541 — a pixel transparency shader built for low-power devices |
 
 ---
 
