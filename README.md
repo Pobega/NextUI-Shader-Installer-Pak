@@ -10,7 +10,7 @@ Browse, download, and install single-pass GLSL shaders from GitHub directly onto
 ## Features
 
 - Browse shaders by source and category
-- Single-pass shaders only — multi-pass shaders are filtered out automatically as they are incompatible with minarch on low-power devices
+- Single-pass shaders only
 - Automatic `.glslp` → `.cfg` conversion with filter settings preserved
 - Check for updates on installed shaders
 - Delete installed shaders
