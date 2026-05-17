@@ -124,3 +124,4 @@ With a token, the rate limit is raised to 5000 requests per hour.
 - Shader sources: [libretro/glsl-shaders](https://github.com/libretro/glsl-shaders) and [SkyWalker541/PT-SkyWalker541](https://github.com/SkyWalker541/PT-SkyWalker541)
 - Built for [NextUI](https://github.com/LoveRetro/NextUI) by LoveRetro
 - UI powered by [minui-list](https://github.com/josegonzalez/minui-list) and [minui-presenter](https://github.com/josegonzalez/minui-presenter) by josegonzalez
+- AI assisted development
