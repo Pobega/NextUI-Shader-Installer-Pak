@@ -348,7 +348,7 @@ convert_glslp_to_cfg() {
     [ "$FILTER_LINEAR" = "true" ] && FILTER="LINEAR" || FILTER="NEAREST"
     cat <<EOF
 minarch_nrofshaders = 1
-minarch_shader1 = glsl/$GLSL_FILENAME
+minarch_shader1 = $GLSL_FILENAME
 minarch_shader1_filter = $FILTER
 minarch_shader1_srctype = source
 minarch_shader1_scaletype = source
