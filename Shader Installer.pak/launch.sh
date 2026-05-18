@@ -599,14 +599,9 @@ manage_shaders() {
 
         NAMES="$(echo "$INSTALLED" | while IFS= read -r CFG_PATH; do
             NAME="$(basename "$CFG_PATH" .cfg)"
-            # Read the actual glsl path from the cfg file
-            GLSL_REL="$(grep "^minarch_shader1 " "$CFG_PATH" 2>/dev/null |                 sed "s/.*=[ 	]*//" | tr -d " \r\n")"
-            if [ -n "$GLSL_REL" ] && [ -f "$SHADERS_DIR/$GLSL_REL" ]; then
+            # Only show shaders installed by this pak (have a date file)
+            if [ -f "$INSTALLED_DIR/$NAME.date" ]; then
                 echo "$NAME"
-            elif [ -f "$GLSL_DIR/$NAME.glsl" ]; then
-                echo "$NAME"
-            else
-                echo "$NAME (cfg only)"
             fi
         done)"
 
